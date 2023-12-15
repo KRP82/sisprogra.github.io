@@ -1,0 +1,10 @@
+LA PAGINA/PROGRAMA/APLICACION ESTA EN LA CARPETA DE PROYECTO, A LO UNICO A LO QUE LE DEBEN MOVER ES AL main.js en donde se escribe el COM del serial, yo lo tengo en 8 pero lo escriben al que ustedes se les haya puesto (Lo checan en el administrador de dispositivos y eso) tiene que estar 'COM#'
+
+El archivo que van a abrir es el de login.html, Cualquier nombre de usuario que pongan esta bien, pero ese es el primero en abrir
+
+******ANTES DE ABRIR LA PAGINA****** deben de extraer lo del p5.serialcontrol
+Lo extran en donde quieran, y van a abrir el que dice p5.serialcontrol, adentro les va a decir cuales son los COM disponibles, seleccionan el de ustedes y lo abren. Osea en donde dice Connect seleccionan en donde esta el serial de ustedes, y le dan Open
+Ya despues de eso abren la pagina, ponen el usuario que sea y empieza a jalar, QUE NO SE LES OLVIDE CAMBIAR EL COM EN LO DEL main.js, eso es lo primero que hay que hacer
+Igual si ya abrieron la pagina del index y no abrieron el p5.serialcontrol solo recargan la pagina unas 2 veces y ya empieza a jalar siempre y cuando tengan lo del serialcontrol prendido en su COM.
+
+Mientras más bajo es el numero de la velocidad, más rapido va a ir el motor.
